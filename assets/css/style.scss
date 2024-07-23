@@ -263,6 +263,39 @@ p {
         }
     }
 }
+//   +++++++++refundPolicy++++++++++++
+.refundPolicySec{
+    padding: 4% 0;
+    .refundPolicyContent{
+        h3{
+            color:$black-color;
+            font-size: 30px;
+            font-weight: bold;
+            padding-bottom: 0.7rem;
+            @media only screen and (max-width: 767px) {
+                font-size: 20px;
+            }
+        }
+        h4{
+            color:$font-dark;
+            font-size: 18px;
+            font-weight: bold;
+            padding-bottom: 0.7rem;
+            @media only screen and (max-width: 767px) {
+                font-size: 15px;
+            }
+        }
+        p{
+            color: $font-thick;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 1.7;
+            @media only screen and (max-width: 767px) {
+                font-size: 14px;
+            }
+        }
+    }
+}
 //   +++++++++Terms And Conditions++++++++++++
 .termsAndConditionSec{
     padding: 4% 0;
