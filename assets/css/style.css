@@ -282,7 +282,42 @@ p {
     font-size: 14px;
   }
 }
-
+.refundPolicySec {
+  padding: 4% 0;
+}
+.refundPolicySec .refundPolicyContent h3 {
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 0.7rem;
+}
+@media only screen and (max-width: 767px) {
+  .refundPolicySec .refundPolicyContent h3 {
+    font-size: 20px;
+  }
+}
+.refundPolicySec .refundPolicyContent h4 {
+  color: #191e24;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 0.7rem;
+}
+@media only screen and (max-width: 767px) {
+  .refundPolicySec .refundPolicyContent h4 {
+    font-size: 15px;
+  }
+}
+.refundPolicySec .refundPolicyContent p {
+  color: #7d8185;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+@media only screen and (max-width: 767px) {
+  .refundPolicySec .refundPolicyContent p {
+    font-size: 14px;
+  }
+}
 .termsAndConditionSec {
   padding: 4% 0;
 }
